@@ -33,11 +33,4 @@ function createNavBar() {
     createNavItem("Booking")
 }
 
-function removeAllChildren(nodeSelector) {
-    const myNode = document.getElementById(nodeSelector);
-    while (myNode.firstChild) {
-      myNode.removeChild(myNode.firstChild);
-    }
-}
-
-export {createNavBar, removeAllChildren}
+export { createNavBar }

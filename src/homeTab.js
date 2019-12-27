@@ -1,4 +1,4 @@
-import {createNavBar, removeAllChildren} from "./index"
+import { createNavBar } from "./index"
 
 function renderHomeTab() {
     renderPage();
@@ -15,6 +15,13 @@ function renderPage() {
     removeAllChildren("content");
     let content = document.querySelector("#content");
     createNavBar();
+}
+
+function removeAllChildren(nodeSelector) {
+    const myNode = document.getElementById(nodeSelector);
+    while (myNode.firstChild) {
+      myNode.removeChild(myNode.firstChild);
+    }
 }
 
 export {renderHomeTab, renderPage}
