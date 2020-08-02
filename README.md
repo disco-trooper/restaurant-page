@@ -1,6 +1,6 @@
 # Restaurant page
 
-A simple restaurant page made for [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page). The website is dynamically generated with Javascript. Topics for this project were npm, webpack and ES6 modules.
+A simple restaurant page made as a part of [The Odin Project's curriculum](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page). The website is dynamically generated with Javascript. Topics for this project were npm, webpack and ES6 modules.
 
 ## Getting Started
 
